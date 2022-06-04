@@ -1,0 +1,21 @@
+ .images{
+     background-image: url(../../images/images/motorcycle-studio-3d-rendering-illustration_37416-192.webp);
+     background-size: cover;
+    
+     background-repeat: no-repeat;
+     background-position: center;
+     
+ }
+ .images2{
+     background-image: url(../../images/images/motorcycle-studio_37416-145.jpg);
+     background-size: cover;
+    
+     background-repeat: no-repeat;
+     background-position: center;
+     
+ }
+ 
+.logoText{
+    color: rgb(243, 147, 21);
+    font-weight: 700;
+}
