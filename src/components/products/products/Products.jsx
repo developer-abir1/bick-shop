@@ -5,44 +5,79 @@ import tvs3 from '../../../images/images/tvs-metro-plus-1637480581.jpg';
 import tvs4 from '../../../images/images/tvs-ntorq-125-1629801326.jpg'; 
 import ProductItem from '../ProductItem/ProductItem';
 
-const productsList = [
+export   const productsList = [
     {
-        id:54,
+        id:4563,
         name:'TVS Apache RTR Race-Edition',
         img:tvs1,
         price:175200,
         discription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime amet odit ducimus odio impedit nostrum et quos numquam nemo reiciendis blanditiis, fuga autem, rem nam deserunt corrupti soluta totam laborum!TVS-Apache-RTR-160-Rear-Disc'
     },
     {
-        id:32,
+        id:45634563,
         name:'TVS Apache RTR Rear-Disc',
         img:tvs2,
         price:175200,
         discription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime amet odit ducimus odio impedit nostrum et quos numquam nemo reiciendis blanditiis, fuga autem, rem nam deserunt corrupti soluta totam laborum!TVS-Apache-RTR-160-Rear-Disc'
     },
     {
-        id:21,
+        id:4563,
         name:'TVS Apache RTR Motor Plus',
         img:tvs3,
         price:175200,
         discription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime amet odit ducimus odio impedit nostrum et quos numquam nemo reiciendis blanditiis, fuga autem, rem nam deserunt corrupti soluta totam laborum!TVS-Apache-RTR-160-Rear-Disc'
     },
     {
-        id:24,
+        id:4563453,
         name:'TVS Apache RTR ntorq',
         img:tvs4,
         price:175200,
         discription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime amet odit ducimus odio impedit nostrum et quos numquam nemo reiciendis blanditiis, fuga autem, rem nam deserunt corrupti soluta totam laborum!TVS-Apache-RTR-160-Rear-Disc'
     },
     {
-        id:26,
+        id:5436,
         name:'TVS Apache RTR ntorq',
         img:tvs4,
         price:175200,
         discription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime amet odit ducimus odio impedit nostrum et quos numquam nemo reiciendis blanditiis, fuga autem, rem nam deserunt corrupti soluta totam laborum!TVS-Apache-RTR-160-Rear-Disc'
     },
     {
-        id:27,
+        id:7863,
+        name:'TVS Apache RTR ntorq',
+        img:tvs4,
+        price:175200,
+        discription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime amet odit ducimus odio impedit nostrum et quos numquam nemo reiciendis blanditiis, fuga autem, rem nam deserunt corrupti soluta totam laborum!TVS-Apache-RTR-160-Rear-Disc'
+    },
+    {
+        id:453,
+        name:'TVS Apache RTR ntorq',
+        img:tvs4,
+        price:175200,
+        discription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime amet odit ducimus odio impedit nostrum et quos numquam nemo reiciendis blanditiis, fuga autem, rem nam deserunt corrupti soluta totam laborum!TVS-Apache-RTR-160-Rear-Disc'
+    },
+    {
+        id:543543,
+        name:'TVS Apache RTR ntorq',
+        img:tvs4,
+        price:175200,
+        discription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime amet odit ducimus odio impedit nostrum et quos numquam nemo reiciendis blanditiis, fuga autem, rem nam deserunt corrupti soluta totam laborum!TVS-Apache-RTR-160-Rear-Disc'
+    },
+    {
+        id:635,
+        name:'TVS Apache RTR ntorq',
+        img:tvs4,
+        price:175200,
+        discription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime amet odit ducimus odio impedit nostrum et quos numquam nemo reiciendis blanditiis, fuga autem, rem nam deserunt corrupti soluta totam laborum!TVS-Apache-RTR-160-Rear-Disc'
+    },
+    {
+        id:2525,
+        name:'TVS Apache RTR ntorq',
+        img:tvs4,
+        price:175200,
+        discription:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime amet odit ducimus odio impedit nostrum et quos numquam nemo reiciendis blanditiis, fuga autem, rem nam deserunt corrupti soluta totam laborum!TVS-Apache-RTR-160-Rear-Disc'
+    },
+    {
+        id:787,
         name:'TVS Apache RTR ntorq',
         img:tvs4,
         price:175200,
