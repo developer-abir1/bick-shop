@@ -3,16 +3,17 @@ import React from 'react';
 import Link from 'next/link';
  
 const ProductsList = (props) => {
-    const {name, img , price , id} = props.item
+    const {name, img , price , _id} = props.item
+    console.log(props)
    
     return (
-      <Link href={`/products/${id}`} passHref> 
-  <div className="col">
+      <Link href={`/products/${_id}`} passHref> 
+    <div className="col">
       
     <div className="card shadow-sm border-0">
-      <Image   src={img} className="card-img-top w-75" alt="..."/>
+       <img src={img}   alt="" />
       <div className="card-body text-center">
-        <h5 className="card-title fs-6 " >{props.item?.name}</h5>
+        <h5 className="card-title fs-6 " >{ name}</h5>
         <p className="card-text text-secondary   text-start">This is a longer  </p>
 
        <div className='d-flex justify-content-between   align-items-center'>

@@ -4,9 +4,10 @@ import ProductItem from '../../src/components/products/ProductItem/ProductItem';
 import { productsList } from '../../src/components/products/products/Products';
 import Image from 'next/image';
 import Link from 'next/link'
+import useProduct from '../../src/components/ulitls/useProduct';
 
 const index = () => {
-
+const [products] = useProduct()
 
     return (
         <Layouts>
@@ -15,15 +16,15 @@ const index = () => {
      <div  className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4  g-4   ">
          {
 
-             productsList.map((item , index) =>{
+products.map((item , index) =>{
               
               {
-                const { img ,name ,price , id} = item
+                const { img ,name ,price , _id} = item
                 return(
-                  <Link href={`/products/${id}`}>
+                  <Link href={`/products/${_id}`}>
                     <div key={index} className="col">
                     <div className="card shadow-sm border-0">
-                      <Image   src={img} className="card-img-top w-75" alt="..."/>
+                      <img   src={img} className="card-img-top w-75" alt="..."/>
                       <div className="card-body text-center">
                         <h5 className="card-title fs-6 " >{name}</h5>
                         <p className="card-text text-secondary   text-start">This is a longer  </p>
